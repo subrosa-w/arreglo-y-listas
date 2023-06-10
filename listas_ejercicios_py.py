@@ -1,3 +1,5 @@
+#CADA ELEMENTO DE UNA LISTA TIENE UNA POSICION ENUMERADA LLAMADA INDICE [0, 1, 2, 3]
+
 lista = [1,"hola", 3.67,[1, 2, 3]]
 print(lista)
 print(lista[-2])
