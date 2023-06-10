@@ -63,7 +63,7 @@ copia = lista_original.copy() #copia la lista
 print(copia)
 #Resultado: [1, 2, 3, 4, 5]
 
-listai = ([1, 2, 3, 4, 5], "aa")
+listai = ([1, 2, 3, 4, 5])
 listai.clear() #borra la lista
 print(listai)
 #Resultado: ... literalmente borro la lista
