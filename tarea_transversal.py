@@ -29,7 +29,6 @@ while menu_prin == True:
             dueño_vehiculo=input("Ingrese el nombre del dueño: ")
             general= tipo_auto, patente_auto, marca_auto, precio_auto, multa_auto, multa_fecha_auto, fecha_registro_vehiculo, dueño_vehiculo
             print(general)
-
         #/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         if opcion_seleccionada == 2: 
             print("Ha seleccionado la opcion 2.- Buscar: ")

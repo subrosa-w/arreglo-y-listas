@@ -30,7 +30,7 @@ def resta1(nume_1, nume_2):
 resultado_10=resta1(10,1)#9
 resultado_20=resta1(8,3)#5
 #forma decente
-print(resultado_10-resultado_20)
+print(resultado_10-resultado_20)#4
 
 #forma bizarra
-print(resta1(10,1)+resta1(8,3))#14    
+print(resta1(10,1)+resta1(8,3))#14
