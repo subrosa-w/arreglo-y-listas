@@ -1,0 +1,48 @@
+flag=True
+while flag==True:
+    print("\n----------CALCULADORA----------")
+    print("\nEscoja una opcion: ")
+    print("\n1.- Suma: ")
+    print("2.- Resta: ")
+    print("3.- Multiplicacion: ")
+    print("4.- Division: ")
+    print("5.- Salir: ")
+    opcion_seleccionada=int(input())
+#/////////////////////////////////////////////////////////////////////////////////////////////
+    if opcion_seleccionada == 1:
+        print("Ha Seleccionado la opcion 1.- Suma: ")
+        def sumar(a,b):
+            suma=a+b
+            print("la suma de los numeros es: ",suma)
+        num1= int(input("ingrese el primer numero: "))
+        num2= int(input("ingrese el segundo numero: "))
+        sumar(num1, num2)
+#/////////////////////////////////////////////////////////////////////////////////////////////
+    if opcion_seleccionada == 2:
+        def resta(c,d):
+            resta=c-d
+            print("la resta de los numeros es: ",resta)
+        num3= int(input("ingrese el primer numero: "))
+        num4= int(input("ingrese el segundo numero: "))
+        resta(num3, num4)
+#/////////////////////////////////////////////////////////////////////////////////////////////
+    if opcion_seleccionada == 3:
+        print("Ha Seleccionado la opcion 3.- Multiplicacion: ")
+        def mul(e,r):
+            mul=e*r
+            print("la multiplicacion de los numeros es: ",mul)
+        num5= int(input("ingrese el primer numero: "))
+        num6= int(input("ingrese el segundo numero: "))
+        mul(num5, num6)
+#/////////////////////////////////////////////////////////////////////////////////////////////
+    if opcion_seleccionada == 4:
+        print("Ha Seleccionado la opcion 4.- Division: ")
+        def divi(i,o):
+            divi=i/o
+            print("la division de los numeros es: ",divi)
+        num7= int(input("ingrese el primer numero: "))
+        num8= int(input("ingrese el segundo numero: "))
+        divi(num7, num8)
+#/////////////////////////////////////////////////////////////////////////////////////////////
+    if opcion_seleccionada == 5:
+        flag=False

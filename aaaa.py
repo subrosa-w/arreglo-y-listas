@@ -1,6 +1,6 @@
-opcion_multa=input("Su auto tiene alguna multa? Ingrese si o no: ")
-if opcion_multa == "si" or opcion_multa == "SI":
-    multa_auto=int(input("Ingrese el monto de la multa: "))
-    multa_fecha_auto=input("Ingrese la fecha de la multa: ")
-elif opcion_multa == "NO" or opcion_multa =="no":
-    print("Ha seleccionado que no ")
+def sumar(a,b):
+    suma=a+b
+    print("la suma de los numeros es: ",suma)
+num1= int(input("ingrese el primer numero: "))
+num2= int(input("ingrese el segundo numero: "))
+sumar(num1, num2)

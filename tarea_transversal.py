@@ -12,6 +12,7 @@ while menu_prin == True:
         print("3.- Imprimir Certificados: \n")
         print("4.- Salir: \n")
         opcion_seleccionada=int(input("Seleccione una opcion: "))
+        #/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         if opcion_seleccionada == 1:
             print("Ha seleccionado la opcion 1.- Grabar: \n")
             tipo_auto=input("Ingrese el tipo de auto: ")
@@ -29,20 +30,20 @@ while menu_prin == True:
             general= tipo_auto, patente_auto, marca_auto, precio_auto, multa_auto, multa_fecha_auto, fecha_registro_vehiculo, dueño_vehiculo
             print(general)
 
-        #//////////////////////////////////////////////////////////////////////////
+        #/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         if opcion_seleccionada == 2: 
             print("Ha seleccionado la opcion 2.- Buscar: ")
-            buscar_patente=int(input("Ingrese la patente del auto para buscar: "))
+            buscar_patente=input("Ingrese la patente del auto para buscar: ")
             if buscar_patente == patente_auto:
                 print(general)
             else:
                 print("La patente no existe: ")
-        #//////////////////////////////////////////////////////////////////////////
+        #/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         if opcion_seleccionada == 4:
             print("\nHa seleccionado la opcion 4.- Salir: \n")
             print("Version del programa 1.1")
             menu_prin=False
-            
+        #/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     except ValueError:
         print("\nIngrese Numeros enteros: \n")
